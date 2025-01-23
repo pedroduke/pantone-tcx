@@ -1,0 +1,26 @@
+{
+  "name": "pantone-tcx",
+  "version": "1.0.3",
+  "type": "module",
+  "main": "index.js",
+  "license": "ISC",
+  "author": "Pedro Duque <pedroduque8@gmail.com>",
+  "description": "Find the nearest Pantone TCX color by HEX, get similar colors within a specified range, and return details like name, TCX code, or HEX value.",
+  "homepage": "https://github.com/pedroduke/pantone-tcx#readme",
+  "keywords": [
+    "Pantone",
+    "color",
+    "color_name",
+    "hex-to-pantone",
+    "nearest-pantone",
+    "pantone-tcx",
+    "hex-to-tcx",
+    "pantone-matching",
+    "color-matching",
+    "similar-colors",
+    "design-tools",
+    "color-library",
+    "color-utilities",
+    "hex-to-color"
+  ]
+}
