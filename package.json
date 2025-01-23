@@ -1,8 +1,9 @@
 {
   "name": "pantone-tcx",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "type": "module",
-  "main": "index.js",
+  "main": "src/pantone-tcx.js",
+  "types": "src/types/pantone-tcx.d.ts",
   "license": "ISC",
   "repository": {
     "type": "git",

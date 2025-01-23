@@ -157,7 +157,7 @@ function getSimilarColors(inputHex, maxDistance = 64) {
 
 console.log(getSimilarColors("FF0000", "12"));
 
-export {
+module.exports = {
   getNearestPantone,
   getNearestPantoneName,
   getNearestPantoneTcx,
