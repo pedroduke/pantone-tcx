@@ -31,12 +31,13 @@ Use getNearestPantone to find the Pantone TCX color closest to a given HEX color
 
 - Possible to use hex3 or hex6 vales. (e.g., #fff or #ffffff)
 
-```
-import { getNearestPantone } from 'pantone-tcx-color-matcher';
+```javascript
+import { getNearestPantone } from "pantone-tcx";
 
 const nearestColor = getNearestPantone("#ffffff");
 
 console.log(nearestColor);
+
 // Output:
 // {
 //   name: 'Stalactite',
@@ -51,12 +52,13 @@ Use getSimilarColors to retrieve Pantone TCX colors that are similar to the inpu
 
 - Possible to use hex3 or hex6 vales. (e.g., #fff or #ffffff) & for maxDistance a number or string (e.g., 12 or "12")
 
-```
-import { getSimilarColors } from 'pantone-tcx-color-matcher';
+```javascript
+import { getSimilarColors } from "pantone-tcx";
 
 const similarColors = getSimilarColors("#ffffff", 24);
 
 console.log(similarColors);
+
 // Output:
 // [
 //   { name: 'Stalactite', tcx: '11-4101', hex: '#F7F6F2' },
@@ -70,12 +72,13 @@ console.log(similarColors);
 
 You can easily access just the Pantone TCX name of the nearest color:
 
-```
-import { getNearestPantone } from 'pantone-tcx';
+```javascript
+import { getNearestPantone } from "pantone-tcx";
 
 const nearestColorName = getNearestPantoneName("#ffffff");
 
 console.log(nearestColorName);
+
 // Output: 'Stalactite'
 ```
 
@@ -83,12 +86,13 @@ console.log(nearestColorName);
 
 You can easily access just the Pantone TCX code of the nearest color:
 
-```
-import { getNearestPantone } from 'pantone-tcx';
+```javascript
+import { getNearestPantone } from "pantone-tcx";
 
 const nearestColorName = getNearestPantoneTcx("#ffffff");
 
 console.log(getNearestPantoneTcx);
+
 // Output: '11-4101'
 ```
 
