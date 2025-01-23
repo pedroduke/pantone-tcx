@@ -1,20 +1,16 @@
 {
   "name": "pantone-tcx",
-  "version": "1.1.0",
-  "main": "lib/cjs/index.js",
-  "exports": {
-    "import": "lib/esm/index.js",
-    "require": "lib/cjs/index.js"
-  },
-  "scripts": {
-    "build": "rollup -c"
-  },
-  "type": "module",
-  "types": "src/types/pantone-tcx.d.ts",
+  "version": "2.1.3",
+  "main": "dist/pantone-tcx.cjs",
+  "module": "dist/pantone-tcx.mjs",
+  "types": "types/types.d.ts",
   "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pedroduke/pantone-tcx.git"
+  },
+  "scripts": {
+    "build": "rollup -c"
   },
   "author": "Pedro Duque <pedroduque8@gmail.com>",
   "description": "Find the nearest Pantone TCX color by HEX, get similar colors within a specified range, and return details like name, TCX code, or HEX value.",
@@ -38,6 +34,7 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.2",
     "@rollup/plugin-node-resolve": "^16.0.0",
-    "rollup": "^4.31.0"
+    "rollup": "^2.79.2",
+    "rollup-plugin-terser": "^7.0.2"
   }
 }
