@@ -103,4 +103,4 @@ console.log(getNearestPantoneTcx);
 
 ## Author
 
-pantone-tcx is written by [Pedro Duque](https://pedro-duque.vercel.app/)
+pantone-tcx is written by [Pedro Duque](https://pedroduke.dev/)
